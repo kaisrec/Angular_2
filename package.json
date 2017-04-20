@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "author": "Kais Rekouche",
   "main": "gulpfile.js",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaisrec/Angular_2.git"
+    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
