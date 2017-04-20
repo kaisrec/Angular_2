@@ -1,5 +1,5 @@
 import { double, square } from './mymodule';
-var a = 3, 
+var a = 35, 
     b = 5;
 var calc ={"double": double(a) , "square":square(b)};
 var elem = document.getElementById('ka');
