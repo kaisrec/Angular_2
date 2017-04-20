@@ -9,11 +9,15 @@ var appSrc = 'builds/development/',
 gulp.task('copylibs', function() {
   return gulp
     .src([
+      'node_modules/angular/angular.min.js',
+      'node_modules/angular-material/angular-material.min.js',
+      'node_modules/angular-animate/angular-animate.min.js',
+      'node_modules/angular-aria/angular-aria.min.js',
       'node_modules/es6-shim/es6-shim.min.js',
       'node_modules/systemjs/dist/system.src.js',
       'node_modules/rxjs/bundles/Rx.js',
     ])
-    .pipe(gulp.dest(appSrc + 'js/lib/angular2'));
+    .pipe(gulp.dest(appSrc + 'js/lib'));
 });
 
 gulp.task('typescript', function () {
