@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Learn AngularJS2: The Basics</title>
+    <script src="js/lib/angular2/es6-shim.min.js"></script>
+    <script src="js/lib/angular2/system-polyfills.js"></script>
+    <script src="js/lib/angular2/system.src.js"></script>
+    <script src="js/lib/angular2/Rx.js"></script>
+    <script>
+      System.config({
+        packages: {
+          js: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('js/boot.es6.js')
+        .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+<body>
+ <h2>Hello Ecma6</h2>
+</body>
+</html>
